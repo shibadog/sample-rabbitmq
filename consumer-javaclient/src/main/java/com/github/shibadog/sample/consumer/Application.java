@@ -37,7 +37,7 @@ public class Application implements CommandLineRunner {
                         throws java.io.IOException {
                     long deliveryTag = envelope.getDeliveryTag();
                     log.info("consume: {}", new String(body));
-                    channel.basicAck(deliveryTag, false);
+                    // channel.basicAck(deliveryTag, false);
                 }
             });
 
