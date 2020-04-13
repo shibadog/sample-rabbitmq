@@ -23,6 +23,7 @@
     <modules>
         <module>publisher</module>
         <module>consumer-spring</module>
+        <module>consumer-javaclient</module>
     </modules>
 
     <properties>

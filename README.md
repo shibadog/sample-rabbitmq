@@ -2,6 +2,8 @@
 
 ## overview
 
+### spring amqp version
+
 rabbitmq start
 
 ```PS
@@ -18,6 +20,32 @@ consumer-spring start
 
 ```PS
 PS> ./mvnw spring-boot:run -pl consumer-spring
+```
+
+curl
+
+```PS
+PS> curl http://localhost:8081/add
+```
+
+### rabbitmq client version
+
+rabbitmq start
+
+```PS
+PS> docker-compse up -d
+```
+
+publisher start
+
+```PS
+PS> ./mvnw spring-boot:run -pl publisher
+```
+
+consumer-spring start
+
+```PS
+PS> ./mvnw spring-boot:run -pl consumer-javaclient
 ```
 
 curl

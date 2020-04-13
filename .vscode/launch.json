@@ -29,6 +29,16 @@
             "mainClass": "com.github.shibadog.sample.consumer.Application",
             "projectName": "consumer-spring",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<consumer-javaclient>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.github.shibadog.sample.consumer.Application",
+            "projectName": "consumer-javaclient",
+            "args": ""
         }
     ]
 }
